@@ -2,16 +2,14 @@
 
 **Stop treating AI like a black box. Watch it think.**
 
-*(Replace this line with your actual screenshot or GIF of the blue bars moving)*
-
 ## 🚀 Overview
 
-This is a **pure C implementation** of the Llama 2 Large Language Model inference engine. It runs with **zero external dependencies** (no PyTorch, no Python, no Accelerate)—just raw memory management and matrix multiplication.
+This is a **pure C implementation** of the Llama 2 Large Language Model inference engine. It runs with **zero external dependencies** (no PyTorch, no Python, no Accelerate) just raw memory management and matrix multiplication.
 
 **The Twist:**
 Unlike standard inference engines that just output text, this engine features a real-time **Neural Dashboard**. It taps directly into the model's logit layer to visualize the probability distribution *before* a token is selected.
 
-You can watch the model's confidence fluctuate in real-time—seeing exactly when it is "hallucinating" (low confidence) versus when it is reciting facts (high confidence).
+You can watch the model's confidence fluctuate in real-time seeing exactly when it is "hallucinating" (low confidence) versus when it is reciting facts (high confidence).
 
 ## ✨ Features
 
